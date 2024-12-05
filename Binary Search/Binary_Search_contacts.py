@@ -28,4 +28,7 @@ class BinarySearchContact:
 
 contacts = [User('John', '1234567890'), User('Jane', '0987654321'), User('Doe', '1234567890'), User('Doe', '1234567890')]
 search = BinarySearchContact(contacts)
+
 print(search.search('Jane'))
+
+print(search.search('Alice'))
